@@ -25,11 +25,11 @@ const useStyles = makeStyles({
   },
   icon: {
     margin: "2%",
-    fontSize: "40px",
+    fontSize: "50px",
     "&:hover": {
       color: "#00000090",
     },
-    marginBottom: "5%",
+    marginBottom: "10%",
   },
 });
 
@@ -62,9 +62,6 @@ export default function Resume() {
           </Button>
         </div>
       </Box>
-      <Typography variant="h6" align="center">
-        For more:
-      </Typography>
       <Box component="div" className={classes.iconContainer}>
         <GitHubIcon
           className={classes.icon}
